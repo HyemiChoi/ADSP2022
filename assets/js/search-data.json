@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "fastpages를 이용한 강의블로그 개설",
+            "content": "&#44053;&#51032;&#48660;&#47196;&#44536; &#44060;&#49444; . - https://github.com/fastai/fastpages $ to$ Use this templete $ to$ Repository name $ to$ Create repository from template . - wait 30 sec $ to$ pull requeset $ to$ Initial Setup $ to$ follow instructions $ to$ merge pull request $ to$ confirm merge $ to$ wait 5 min(?) . instructions . go to https://8gwifi.org/sshfunctions.jsp $ to$ select (RSA,4096) $ to$ copy private key $ to$ (repo $ to$ Settings $ to$ Secretes) $ to$ New repository secret $ to$ {Name: SSH_DEPLOY_KEY, Value: paste private key} | go to https://8gwifi.org/sshfunctions.jsp $ to$ select (RSA,4096) $ to$ copy public key $ to$ (repo $ to$ Settings $ to$ Deploy keys) $ to$ Add deploy key $ to$ {Title: fastpages-key, Key: paste public key} $ to$ check &#39;Allow write access&#39; $ to$ Add key $ to$ Enter passwd | . &#54856;&#54168;&#51060;&#51648; &#49444;&#51221; (&#49373;&#47029;&#54644;&#46020; &#47924;&#48169;) . - 불필요한 파일 삭제 . ~/_notebooks/2020-02-20-test.ipynb | ~/_posts/2020-01-14-test-markdown-post.md | . - _config.yml 수정 . title: fastpages --&gt; title: ADSP 분류분석 (전북대학교 2022년 겨울방학특강) | description: An easy to use blogging platform with support for Jupyter Notebooks. --&gt; 주석처리 | use_math: --&gt; use_math: true | default_badges: 를 아래와 같이 수정 default_badges: github: true binder: false colab: true ## 코랩사용 못하게 하려면 false deepnote: false . | . - index_html: 아래와 같이 설정 . layout: home search_exclude: true image: images/logo.png # Lecture . - /_pages/about.md: 아래와 같이 설정 . layout: page title: About Me permalink: /about/ 최규빈 - https://github.com/guebin - guebin@jbnu.ac.kr - 자연과학대학교 본관 205호 . &#44053;&#51032;&#45432;&#53944; &#50629;&#47196;&#46300; . - jupyternote book 파일을 _notebooks 폴더에 업로드 . 방법1: github에서 직접 업로드 | 방법2: local PC $ to$ github 으로 push | 방법3: colab $ to$ file $ to$ Save a copy in GitHub | 기타등등.. | . &#44053;&#51032;&#45432;&#53944; &#45796;&#50868;&#47196;&#46300; . - 강의노트 pages 접속 . 방법1: View On GitHub $ to$ Raw $ to$ Ctrl + S $ to$ fname.ipynb.txt 에서 .txt 삭제 후 저장 | 방법2: Open in Colab $ to$ Download $ to$ Download .ipynb | 방법3: html, pdf로 저장? | . - GitHub repo 접속 . 방법1: Fork | 방법2: Clone | 방법3: Code $ to$ Download ZIP | 등등.. | . ref . - https://github.com/fastai/fastpages . - https://fastpages.fast.ai/ .",
+            "url": "https://hyemichoi.github.io/ADSP2022/2022/01/11/fastpages.html",
+            "relUrl": "/2022/01/11/fastpages.html",
+            "date": " • Jan 11, 2022"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "최혜미 . https://github.com/guebin | guebin@jbnu.ac.kr | 자연과학대학교 본관 205호 | .",
           "url": "https://hyemichoi.github.io/ADSP2022/about/",
